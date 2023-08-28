@@ -9,22 +9,26 @@
     <script src="src/Components/TitleDynamic.js" defer></script>
 </head>
 <body>
-    <div class="container">
-        <div class="card">
-            <div class="card__left">
-                <span>By: Isadora Possamai</span>
-                <a href="#">Darth Vader Contrata Devs</a>
-                <p>Darth Vader procura desenvolvedores que sabem trabalhar com componentes.</p>
+    <div class="app-root">
+        
+        <card-news 
+        autor="Isadora" 
+        url-link="www.google.com" 
+        photo="assets/download (2).jpg"
+        title="Darth Vader Contrata Devs" 
+        content="Darth Vader procura desenvolvedores que sabem trabalhar com componentes."
+        >
+        </card-news>
 
-            </div>
-            <div class="card__right">
-                <img src="assets/download (2).jpg" alt="">
-            </div>
-        </div>
+        <card-news 
+        url-link="www.google.com/yoda"
+        title="Yoda convence republica a utilizar componentes" 
+        content="Yoda se pronuncia e choca a republica."
+        >
+        </card-news>
+    
     </div>
 
-    <card-news></card-news>
-    <title-dynamic title="Noticia Urgente!"></title-dynamic>
-    <title-dynamic title="Noticia Nova!"></title-dynamic>
+
 </body>
 </html>
